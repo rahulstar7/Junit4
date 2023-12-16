@@ -39,7 +39,12 @@ public class Junit4Test {
 		junit4.divisionOpe(10, 0);
 	}
 	
-	
+	@Test(expected = ArithmeticException.class)
+	public void conflict()
+	{
+		junit4.divisionOpe(10, 0);
+	}
+
 	
 	
 	
