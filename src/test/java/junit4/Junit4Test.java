@@ -46,10 +46,21 @@ public class Junit4Test {
 	}
 
 	@Test(expected = ArithmeticException.class)
+
 	public void devTest()
+
 	{
 		junit4.divisionOpe(10, 0);
 	}
+
+	@Test(expected = ArithmeticException.class)
+
+
+	public void qaTest()
+	{
+		junit4.divisionOpe(10, 0);
+	}
+	
 
 	
 	
